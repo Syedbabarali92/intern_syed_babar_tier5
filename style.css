@@ -1,240 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
 *{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
-/*----------Header Part--------------*/
-header li,a{
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
+body{
+   /* height: 100vh;  */
+    width: 100%;
+    /*background:linear-gradient(to bottom, #68EACC 0%,#497BE8);*/
+    background-image: url('img.jpg');
+}
+.main
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 350px;
+    height: 600px;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: 0 40px 50px rgba(0, 0, 0, 1);
 }
 header{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
-    background-color: #24252A;
-    font-family: 'Archivo Narrow', sans-serif;
-}
-h1{
-    color: #edf0f1;
-    font-family: 'Kavoon', cursive;
+    font-size: 30px;
+    font-weight: 300px;
+    margin: 10px;
     
 }
-.nav_links{
-    list-style: none;
+.center_div{
+    margin: 0px auto;
 }
-.nav_links li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-.nav_links li a{
-    text-transform: uppercase;
-    font-family: 'Archivo Narrow', sans-serif;
-    /*transition: all 0.3s ease 0s;*/
-    font-size: 20px;
-    font-weight: 100;
-    padding: 10px 10px;
-}
-.nav_links li a:hover{
-    /*transition: all 0.3s ease 0s;*/
-    background-color: #0be3b1;
-    color: black;
-    border: 70px;
-    border-radius: 3px;
-}
-.active
-{
-    background-color: #0be3b1;
-    color: black;
-    border: 70px;
-    border-radius: 3px;
-}
-
-/*----------Service Part--------------*/
-
-.service{
-    position: relative;
-    width: 100%;
-    background-color:white;
-    height: 200px;
-    font-size: 20px;
+.center_div p{
+    font-size: 15px;
     font-weight: 700;
 }
-.service p{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    padding: 40px 0px;
-    font-size: 25px;
-    font-family: 'Archivo Narrow', sans-serif;
-}
-.service_link{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-top: -10px;
-}
-.service_link li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-.service_link li a{
-    
-    background-color:#0be3b1;
+input[type=text] {
+    width: 100%;
+    padding: 15px 30px;
+    margin: 10px 0;
     border-radius: 5px;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px 50px;
 }
-/*------------------- Portfolio section --------------------*/
-#content{
-   height: 400px;
-   background-color: #e4e8e4;
-}
-.port-header
+.btn
 {
-	display: inline-block;
-    font-family: 'Archivo Narrow', sans-serif;
-    margin: 21px 50px;
-    margin-bottom: 0px;
-	font-size: 30px;
-	font-weight: 500;
-	color: Black;
+    background-color: blue;
+    margin: 15px;
+    font-size: 16px;
+    padding: 10px 8px;
+    width: 35%;
+    height: 25%;
+    font-weight: 550;
+    border-radius: 6px;
 }
-
-#two-column h3
-{
-	padding-bottom: 5px;
-	font-size: 20px;
-	font-weight: 600;
+.btn:hover{
+    background-color: #00de21;
+    color: whitesmoke;
+    cursor: pointer;
 }
-
-#two-column img
-{
-	float: left;
-	margin-right: 30px;
-	padding: 0px;
-	background: #FFFFFF;
-	opacity: 0.8;
+#Seconday_para{
+    margin: 20px 0px;
+    padding: 0px 20px;
+    width: 100%;
+    font-size: 19px;
+    font-weight: 700;
 }
-
-#two-column  a:hover img
-{
-	opacity: 0.9;
-}
-
-#two-column .box-style
-{
-	overflow: hidden;
-	padding: 30px 50px;
-}
-
-#two-column #tbox1
-{
-	float: left;
-	width: 617px;
-}
-
-#two-column #tbox2
-{
-	float: right;
-	width: 617px;
-}
-
-/*-----------------------------------------------------------------------------*/
-#banner-wrapper
-{
-	overflow: hidden;
-	padding: 50px 0px 50px 0px;
-	background: #20e1b6;
-	text-align: center;
-  color: #fff;
-}
-
-#banner p{
-	letter-spacing: -1px;
-	font-size: 40px;
-	font-weight: 250;
-}
-#banner strong{
-	font-weight: 400;
-}
-
-#banner strong {
- font-weight: 400;
-}
-/*------------------------Footer section --------------------------*/
-
-#footer-wrapper{
-  overflow: hidden;
-  padding: 35px 70px;
-  background: #444444;
-  border-top: 1px solid #404040;
-  border-bottom: 1px solid #404040;
-  padding-bottom: 50px;
-}
-
-#footer{
-overflow: hidden;
-color: #B1B1B1;
-}
-
-.foooter-head{
-margin-bottom: 10px;
-font-family: 'Archivo Narrow', sans-serif;
-font-size: 20px;
-font-weight: 500;
-color: #FFFFFF;
-}
-
-#footer #fbox1{
-float: left;
-width: 730px;
-}
-
-#footer #fbox2{
-float: right;
-width: 306px;
-}
-
-#footer a{
+#students_name{
+   /* border:2px Solid black;*/
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    width:300px;
-    background-color: #0be3b1;
-    border-radius: 7px;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 7px 10px;
+    flex-direction: column;
+    width: 100%;
+    margin:0px auto;
+   /* padding: 0px 35px;*/
+   padding-left: 35px;
+    font-size: 14px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
+#students_name::-webkit-scrollbar {
+    width: 3px;
+    height: auto;
+}
+#students_name::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+#students_name::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 20px;
+  }
 
-#footer .button-small{
-color: #FFFFFF;
-}
 
-.footer-link
-{
-    display: block;
+span{
+    margin: 0px 0px;
+    padding-left: 50px; 
 }
-
-#copyright
-{
-overflow: hidden;
-display: block;
-margin: 10px 0px;
-padding: 3px 0px 3px 0px;
-text-align: center;
-color: #606060;
+.btn1{
+    background-color: #f21313;
+    color: black;
+    height: 5vh;
+    border-radius: 3px;
+    margin: 10px -14px;
+    padding: 0px 14px;
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
 }
-#copyright a
+.btn1:hover
 {
-color: #818181;
+    background-color: white; 
+    color: white; 
 }
