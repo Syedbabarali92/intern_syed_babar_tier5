@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*----------Header Part--------------*/
+header li,a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #24252A;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+h1{
+    color: #edf0f1;
+    font-family: 'Kavoon', cursive;
+    
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif;
+    /*transition: all 0.3s ease 0s;*/
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 10px;
+}
+.nav_links li a:hover{
+    /*transition: all 0.3s ease 0s;*/
+    background-color: #0be3b1;
+    color: black;
+    border: 70px;
+    border-radius: 3px;
+}
+.active
+{
+    background-color: #0be3b1;
+    color: black;
+    border: 70px;
+    border-radius: 3px;
+}
+
+/*----------Service Part--------------*/
+
+.service{
+    position: relative;
+    width: 100%;
+    background-color:white;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.service p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0px;
+    font-size: 25px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.service_link{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: -10px;
+}
+.service_link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.service_link li a{
+    
+    background-color:#0be3b1;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 50px;
+}
+/*------------------- Portfolio section --------------------*/
+#content{
+   height: 400px;
+   background-color: #e4e8e4;
+}
+.port-header
+{
+	display: inline-block;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin: 21px 50px;
+    margin-bottom: 0px;
+	font-size: 30px;
+	font-weight: 500;
+	color: Black;
+}
+
+#two-column h3
+{
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#two-column img
+{
+	float: left;
+	margin-right: 30px;
+	padding: 0px;
+	background: #FFFFFF;
+	opacity: 0.8;
+}
+
+#two-column  a:hover img
+{
+	opacity: 0.9;
+}
+
+#two-column .box-style
+{
+	overflow: hidden;
+	padding: 30px 50px;
+}
+
+#two-column #tbox1
+{
+	float: left;
+	width: 617px;
+}
+
+#two-column #tbox2
+{
+	float: right;
+	width: 617px;
+}
+
+/*-----------------------------------------------------------------------------*/
+#banner-wrapper
+{
+	overflow: hidden;
+	padding: 50px 0px 50px 0px;
+	background: #20e1b6;
+	text-align: center;
+  color: #fff;
+}
+
+#banner p{
+	letter-spacing: -1px;
+	font-size: 40px;
+	font-weight: 250;
+}
+#banner strong{
+	font-weight: 400;
+}
+
+#banner strong {
+ font-weight: 400;
+}
+/*------------------------Footer section --------------------------*/
+
+#footer-wrapper{
+  overflow: hidden;
+  padding: 35px 70px;
+  background: #444444;
+  border-top: 1px solid #404040;
+  border-bottom: 1px solid #404040;
+  padding-bottom: 50px;
+}
+
+#footer{
+overflow: hidden;
+color: #B1B1B1;
+}
+
+.foooter-head{
+margin-bottom: 10px;
+font-family: 'Archivo Narrow', sans-serif;
+font-size: 20px;
+font-weight: 500;
+color: #FFFFFF;
+}
+
+#footer #fbox1{
+float: left;
+width: 730px;
+}
+
+#footer #fbox2{
+float: right;
+width: 306px;
+}
+
+#footer a{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width:300px;
+    background-color: #0be3b1;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 10px;
+}
+
+#footer .button-small{
+color: #FFFFFF;
+}
+
+.footer-link
+{
+    display: block;
+}
+
+#copyright
+{
+overflow: hidden;
+display: block;
+margin: 10px 0px;
+padding: 3px 0px 3px 0px;
+text-align: center;
+color: #606060;
+}
+#copyright a
+{
+color: #818181;
+}
