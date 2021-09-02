@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Image removal from any website with another one",
+    "version": "1.0",
+    "web_accessible_resources": [{
+        
+        "resources": ["/images/*.jpg"],
+        "matches": ["<all_urls>"]
+        }],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "puppies.js"
+            ]
+        }
+    ]
+}
